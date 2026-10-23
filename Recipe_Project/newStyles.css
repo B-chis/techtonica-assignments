@@ -1,9 +1,17 @@
 .left {
     float: left;
     width: 600px;
+    margin-top: 22px;
+    margin-left: 30px;
 }
 
 .right {
     float: right;
     width: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.top {
+    margin-left: 30px;
 }
