@@ -65,9 +65,13 @@ a {
 }
 
 p{
+    font-style: calisto mt;
     color: #AC7D0C
 
 }
 .head {
     color: #3c0008
+}
+h3{
+    color: #2d1600;
 }
