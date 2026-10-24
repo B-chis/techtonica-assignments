@@ -44,6 +44,19 @@ h2:hover {
 }
 
 ol {
-    color: #1F4A2B;
+    color: #1F4A2B
+}
+.corny {
+    position: absolute;
+    left: 0px;
+    right: 20px;
+    top: 10px;
+    height: 100px;
+    width: 600px;
+    z-index: -1;
+    opacity: 50%
 }
 
+h1 {
+    color: 
+}
