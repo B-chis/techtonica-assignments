@@ -44,9 +44,9 @@ ol {
 }
 .corny {
     position: absolute;
-    left: 0px;
+    left: -30px;
     right: 20px;
-    top: 10px;
+    top: 0px;
     height: 100px;
     width: 100%;
     z-index: -1;
