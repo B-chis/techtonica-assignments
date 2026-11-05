@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #E5CD82;
+    background-color: #e7cf89;
 
 }
 
@@ -56,18 +56,27 @@ ol {
 h1 {
     color: #cc5500
 }
+
 a {
     color: forestgreen;
+}
+
+
+.love {
+    color: #3a080f
+  font-family: "WDXL Lubrifont JP N", sans-serif;
 }
 
 p{
     font-style: calisto mt;
     color: #AC7D0C
+}
 
-}
-.head {
-    color: #3c0008
-}
+
 h3{
     color: #2d1600;
+}
+
+nav .bg-light {
+    color: #537150 !important;
 }
