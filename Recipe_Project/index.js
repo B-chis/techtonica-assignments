@@ -10,27 +10,27 @@ document.querySelector('.finish-it').appendChild(newInstructions);
 
 
 
-    // const myDiv = document.getElementById("myDiv");
+    const check = document.getElementById(".ingredients");
 
-    // let checkbox = document.createElement("input");
+    let checkbox = document.createElement("input");
 
-    // checkbox.type = "checkbox";
-    // checkbox.name = "name";
-    // checkbox.value = "value";
-    // checkbox.id = "id";
+    checkbox.type = "checkbox";
+    checkbox.name = "name";
+    checkbox.value = "value";
+    checkbox.id = "id";
 
-    // var label = document.createElement("label");
+    var label = document.createElement("label");
 
-    // label.htmlFor = "id";
+    label.htmlFor = "id";
 
-    // var label = document.createElement("label");
+    var label = document.createElement("label");
 
-    // label.htmlFor = "id";
+    label.htmlFor = "id";
 
-    // label.appendChild(
-    //     document.createTextNode("This create the label for checkbox.")
+    label.appendChild(
+        document.createTextNode("This create the label for checkbox.")
 
-    // );
+    );
 
-    // myDiv.appendChild(checkbox);
-    // myDiv.appendChild(label);
+    .ingredients.appendChild(checkbox);
+    .ingredients.appendChild(label);
