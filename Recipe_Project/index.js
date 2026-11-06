@@ -336,3 +336,32 @@ const eleven = document.getElementById('eleven');
 
     eleven.prepend(checkboxEleven);
     eleven.prepend(labelEleven);
+
+    //new li added to code
+    const twelve = document.querySelector('.ingredients').appendChild(newListItem);
+
+    let checkboxTwelve = document.createElement("input");
+
+    checkboxTwelve.type = "checkbox";
+    checkboxTwelve.name = "name";
+    checkboxTwelve.value = "value";
+    checkboxTwelve.id = "id";
+
+    var labelTwelve = document.createElement("labelTwelve");
+
+    labelTwelve.htmlFor = "id";
+
+    var labelTwelve = document.createElement("labelTwelve");
+
+    labelTwelve.htmlFor = "id";
+
+    // const removeTwelve = document.getElementById('twelve');
+    // removeTwelve.textContent = "";
+    //  labelTwelve.appendChild(
+    //     document.createTextNode('Cotija cheese or queso fresco(you can also substitute for fresh parmesan)')
+
+    // );
+
+    twelve.prepend(checkboxTwelve);
+    twelve.prepend(labelTwelve);
+
