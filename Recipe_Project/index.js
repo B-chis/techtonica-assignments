@@ -38,29 +38,57 @@ document.querySelector('.finish-it').appendChild(newInstructions);
     zero.appendChild(label);
 
 
-    // const one = document.getElementById('one');
+    const one = document.getElementById('one');
 
-    // let checkbox = document.createElement("input");
+    let checkboxOne = document.createElement("input");
 
-    // checkbox.type = "checkbox";
-    // checkbox.name = "name";
-    // checkbox.value = "value";
-    // checkbox.id = "id";
+    checkboxOne.type = "checkbox";
+    checkboxOne.name = "name";
+    checkboxOne.value = "value";
+    checkboxOne.id = "id";
 
-    // var labelOne = document.createElement("labelOne");
+    var labelOne = document.createElement("labelOne");
 
-    // labelOne.htmlFor = "id";
+    labelOne.htmlFor = "id";
 
-    // var labelOne = document.createElement("labelOne");
+    var labelOne = document.createElement("labelOne");
 
-    // label.htmlFor = "id";
+    labelOne.htmlFor = "id";
 
-    // const removeOne = document.getElementById('one');
-    // removeOne.textContent = "";
-    //  labelOne.appendChild(
-    //     document.createTextNode('Corn kernels (fresh or canned)')
+    const removeOne = document.getElementById('one');
+    removeOne.textContent = "";
+     labelOne.appendChild(
+        document.createTextNode('Corn kernels (fresh or canned)')
 
-    // );
+    );
 
-    // one.appendChild(checkbox);
-    // one.appendChild(label);
+    one.appendChild(checkboxOne);
+    one.appendChild(labelOne);
+
+
+     const two = document.getElementById('two');
+
+    let checkboxTwo = document.createElement("input");
+
+    checkboxTwo.type = "checkbox";
+    checkboxTwo.name = "name";
+    checkboxTwo.value = "value";
+    checkboxTwo.id = "id";
+
+    var labelTwo = document.createElement("labelOne");
+
+    labelTwo.htmlFor = "id";
+
+    var labelTwo = document.createElement("labelOne");
+
+    labelTwo.htmlFor = "id";
+
+    const removeTwo = document.getElementById('two');
+    removeTwo.textContent = "";
+     labelTwo.appendChild(
+        document.createTextNode('Valentina (or you favorite hot sauce for Elote)')
+
+    );
+
+    two.appendChild(checkboxTwo);
+    two.appendChild(labelTwo);
