@@ -3,6 +3,9 @@ let newListItem = document.createElement('li');
 newListItem.textContent = '(optional) lime wedges';
 document.querySelector('.ingredients').appendChild(newListItem);
 
+let newInstructions = document.createElement('li');
+newInstructions.textContent = '(optional) Feel free to squeeze some juice to the pizza with the lime wedges for that zesty flavor!';
+document.querySelector('.finish-it').appendChild(newInstructions);
 
 
 
