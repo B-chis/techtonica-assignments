@@ -15,7 +15,17 @@
 
 body {
     background-color: #e7cf89;
+   
+}
 
+.back-corn {
+    background-repeat: y;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    opacity: 75%
 }
 
 
