@@ -27,15 +27,15 @@ document.querySelector('.finish-it').appendChild(newInstructions);
 
     label.htmlFor = "id";
 
-    const removeZero = document.getElementById('zero');
-    removeZero.textContent = "";
-     label.appendChild(
-        document.createTextNode('Lime juice')
+    // const removeZero = document.getElementById('zero');
+    // removeZero.textContent = "";
+    //  label.appendChild(
+    //     document.createTextNode('Lime juice')
 
-    );
+    // );
 
-    zero.appendChild(checkbox);
-    zero.appendChild(label);
+    zero.prepend(checkbox);
+    zero.prepend(label);
 
 //ingredient 1
     const one = document.getElementById('one');
@@ -55,15 +55,15 @@ document.querySelector('.finish-it').appendChild(newInstructions);
 
     labelOne.htmlFor = "id";
 
-    const removeOne = document.getElementById('one');
-    removeOne.textContent = "";
-     labelOne.appendChild(
-        document.createTextNode('Corn kernels (fresh or canned)')
+    // const removeOne = document.getElementById('one');
+    // removeOne.textContent = "";
+    //  labelOne.appendChild(
+    //     document.createTextNode('Corn kernels (fresh or canned)')
 
-    );
+    // );
 
-    one.appendChild(checkboxOne);
-    one.appendChild(labelOne);
+    one.prepend(checkboxOne);
+    one.prepend(labelOne);
 
 //ingredient 2
      const two = document.getElementById('two');
@@ -83,15 +83,15 @@ document.querySelector('.finish-it').appendChild(newInstructions);
 
     labelTwo.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
-        document.createTextNode('Valentina (or you favorite hot sauce for Elote)')
+    // const removeTwo = document.getElementById('two');
+    // removeTwo.textContent = "";
+    //  labelTwo.appendChild(
+    //     document.createTextNode('Valentina (or you favorite hot sauce for Elote)')
 
-    );
+    // );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    two.prepend(checkboxTwo);
+    two.prepend(labelTwo);
 
 //ingredient 3
 const three = document.getElementById('three');
@@ -111,15 +111,15 @@ const three = document.getElementById('three');
 
     labelThree.htmlFor = "id";
 
-    const removeThree = document.getElementById('three');
-    removeThree.textContent = "";
-     labelThree.appendChild(
-        document.createTextNode('Coarse black pepper')
+    // const removeThree = document.getElementById('three');
+    // removeThree.textContent = "";
+    //  labelThree.appendChild(
+    //     document.createTextNode('Coarse black pepper')
 
-    );
+    // );
 
-    three.appendChild(checkboxThree);
-    three.appendChild(labelThree);
+    three.prepend(checkboxThree);
+    three.prepend(labelThree);
 //ingredient 4
 const four = document.getElementById('four');
 
@@ -138,15 +138,15 @@ const four = document.getElementById('four');
 
     labelFour.htmlFor = "id";
 
-    const removeFour = document.getElementById('four');
-    removeFour.textContent = "";
-     labelFour.appendChild(
-        document.createTextNode('Kosher salt')
+    // const removeFour = document.getElementById('four');
+    // removeFour.textContent = "";
+    //  labelFour.appendChild(
+    //     document.createTextNode('Kosher salt')
 
-    );
+    // );
 
-    four.appendChild(checkboxFour);
-    four.appendChild(labelFour);
+    four.prepend(checkboxFour);
+    four.prepend(labelFour);
 //ingredient 5
 const five = document.getElementById('five');
 
@@ -165,15 +165,15 @@ const five = document.getElementById('five');
 
     labelFive.htmlFor = "id";
 
-    const removeFive = document.getElementById('five');
-    removeFive.textContent = "";
-     labelFive.appendChild(
-        document.createTextNode('Ready-to-bake pizza dough(or you can make your own!)')
+    // const removeFive = document.getElementById('five');
+    // removeFive.textContent = "";
+    //  labelFive.appendChild(
+    //     document.createTextNode('Ready-to-bake pizza dough(or you can make your own!)')
 
-    );
+    // );
 
-    five.appendChild(checkboxFive);
-    five.appendChild(labelFive);
+    five.prepend(checkboxFive);
+    five.prepend(labelFive);
 //ingredient 6
 const six = document.getElementById('six');
 
@@ -192,15 +192,15 @@ const six = document.getElementById('six');
 
     labelSix.htmlFor = "id";
 
-    const removeSix = document.getElementById('six');
-    removeSix.textContent = "";
-     labelSix.appendChild(
-        document.createTextNode('Sriracha ranch (make your own!)')
+    // const removeSix = document.getElementById('six');
+    // removeSix.textContent = "";
+    //  labelSix.appendChild(
+    //     document.createTextNode('Sriracha ranch (make your own!)')
 
-    );
+    // );
 
-    six.appendChild(checkboxSix);
-    six.appendChild(labelSix);
+    six.prepend(checkboxSix);
+    six.prepend(labelSix);
 //ingredient 7
 const seven = document.getElementById('seven');
 
@@ -219,15 +219,15 @@ const seven = document.getElementById('seven');
 
     labelSeven.htmlFor = "id";
 
-    const removeSeven = document.getElementById('seven');
-    removeSeven.textContent = "";
-     labelSeven.appendChild(
-        document.createTextNode('Mozzarella')
+    // const removeSeven = document.getElementById('seven');
+    // removeSeven.textContent = "";
+    //  labelSeven.appendChild(
+    //     document.createTextNode('Mozzarella')
 
-    );
+    // );
 
-    seven.appendChild(checkboxSeven);
-    seven.appendChild(labelSeven);
+    seven.prepend(checkboxSeven);
+    seven.prepend(labelSeven);
 //ingredient 8
 const eight = document.getElementById('eight');
 
@@ -246,15 +246,15 @@ const eight = document.getElementById('eight');
 
     labelEight.htmlFor = "id";
 
-    const removeEight = document.getElementById('eight');
-    removeEight.textContent = "";
-     labelEight.appendChild(
-        document.createTextNode('Melted unsalted/salted butter')
+    // const removeEight = document.getElementById('eight');
+    // removeEight.textContent = "";
+    //  labelEight.appendChild(
+    //     document.createTextNode('Melted unsalted/salted butter')
 
-    );
+    // );
 
-    eight.appendChild(checkboxEight);
-    eight.appendChild(labelEight);
+    eight.prepend(checkboxEight);
+    eight.prepend(labelEight);
 //ingredient 9
 const nine = document.getElementById('nine');
 
@@ -273,15 +273,15 @@ const nine = document.getElementById('nine');
 
     labelNine.htmlFor = "id";
 
-    const removeNine = document.getElementById('nine');
-    removeNine.textContent = "";
-     labelNine.appendChild(
-        document.createTextNode('(optional) Chili powder or (granulated/finely minced) garlic')
+    // const removeNine = document.getElementById('nine');
+    // removeNine.textContent = "";
+    //  labelNine.appendChild(
+    //     document.createTextNode('(optional) Chili powder or (granulated/finely minced) garlic')
 
-    );
+    // );
 
-    nine.appendChild(checkboxNine);
-    nine.appendChild(labelNine);
+    nine.prepend(checkboxNine);
+    nine.prepend(labelNine);
 //ingredient 10
 const ten = document.getElementById('ten');
 
@@ -300,15 +300,15 @@ const ten = document.getElementById('ten');
 
     labelTen.htmlFor = "id";
 
-    const removeTen = document.getElementById('ten');
-    removeTen.textContent = "";
-     labelTen.appendChild(
-        document.createTextNode('Fresh cilantro')
+    // const removeTen = document.getElementById('ten');
+    // removeTen.textContent = "";
+    //  labelTen.appendChild(
+    //     document.createTextNode('Fresh cilantro')
 
-    );
+    // );
 
-    ten.appendChild(checkboxTen);
-    ten.appendChild(labelTen);
+    ten.prepend(checkboxTen);
+    ten.prepend(labelTen);
 //ingredient 11
 const eleven = document.getElementById('eleven');
 
@@ -327,12 +327,12 @@ const eleven = document.getElementById('eleven');
 
     labelEleven.htmlFor = "id";
 
-    const removeEleven = document.getElementById('eleven');
-    removeEleven.textContent = "";
-     labelEleven.appendChild(
-        document.createTextNode('Cotija cheese or queso fresco(you can also substitute for fresh parmesan)')
+    // const removeEleven = document.getElementById('eleven');
+    // removeEleven.textContent = "";
+    //  labelEleven.appendChild(
+    //     document.createTextNode('Cotija cheese or queso fresco(you can also substitute for fresh parmesan)')
 
-    );
+    // );
 
-    eleven.appendChild(checkboxEleven);
-    eleven.appendChild(labelEleven);
+    eleven.prepend(checkboxEleven);
+    eleven.prepend(labelEleven);
