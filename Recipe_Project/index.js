@@ -1,6 +1,6 @@
 
 let newListItem = document.createElement('li');
-newListItem.textContent = '(optional) lime juice';
+newListItem.textContent = '(optional) lime wedges';
 document.querySelector('.ingredients').appendChild(newListItem);
 
 
