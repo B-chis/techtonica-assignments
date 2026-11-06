@@ -75,11 +75,11 @@ document.querySelector('.finish-it').appendChild(newInstructions);
     checkboxTwo.value = "value";
     checkboxTwo.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelTwo = document.createElement("labelTwo");
 
     labelTwo.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelTwo = document.createElement("labelTwo");
 
     labelTwo.htmlFor = "id";
 
@@ -94,245 +94,245 @@ document.querySelector('.finish-it').appendChild(newInstructions);
     two.appendChild(labelTwo);
 
 //ingredient 3
-const two = document.getElementById('two');
+const three = document.getElementById('three');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxThree = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxThree.type = "checkbox";
+    checkboxThree.name = "name";
+    checkboxThree.value = "value";
+    checkboxThree.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelThree = document.createElement("labelThree");
 
-    labelTwo.htmlFor = "id";
+    labelThree.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelThree = document.createElement("labelThree");
 
-    labelTwo.htmlFor = "id";
+    labelThree.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeThree = document.getElementById('three');
+    removeThree.textContent = "";
+     labelThree.appendChild(
         document.createTextNode('Coarse black pepper')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    three.appendChild(checkboxThree);
+    three.appendChild(labelThree);
 //ingredient 4
-const two = document.getElementById('two');
+const four = document.getElementById('four');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxFour = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxFour.type = "checkbox";
+    checkboxFour.name = "name";
+    checkboxFour.value = "value";
+    checkboxFour.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelFour = document.createElement("labelFour");
 
-    labelTwo.htmlFor = "id";
+    labelFour.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelFour = document.createElement("labelFour");
 
-    labelTwo.htmlFor = "id";
+    labelFour.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeFour = document.getElementById('four');
+    removeFour.textContent = "";
+     labelFour.appendChild(
         document.createTextNode('Kosher salt')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    four.appendChild(checkboxFour);
+    four.appendChild(labelFour);
 //ingredient 5
-const two = document.getElementById('two');
+const five = document.getElementById('five');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxFive = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxFive.type = "checkbox";
+    checkboxFive.name = "name";
+    checkboxFive.value = "value";
+    checkboxFive.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelFive = document.createElement("labelFive");
 
-    labelTwo.htmlFor = "id";
+    labelFive.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelFive = document.createElement("labelFive");
 
-    labelTwo.htmlFor = "id";
+    labelFive.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeFive = document.getElementById('five');
+    removeFive.textContent = "";
+     labelFive.appendChild(
         document.createTextNode('Ready-to-bake pizza dough(or you can make your own!)')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    five.appendChild(checkboxFive);
+    five.appendChild(labelFive);
 //ingredient 6
-const two = document.getElementById('two');
+const six = document.getElementById('six');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxSix = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxSix.type = "checkbox";
+    checkboxSix.name = "name";
+    checkboxSix.value = "value";
+    checkboxSix.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelSix = document.createElement("labelSix");
 
-    labelTwo.htmlFor = "id";
+    labelSix.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelSix = document.createElement("labelSix");
 
-    labelTwo.htmlFor = "id";
+    labelSix.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeSix = document.getElementById('six');
+    removeSix.textContent = "";
+     labelSix.appendChild(
         document.createTextNode('Sriracha ranch (make your own!)')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    six.appendChild(checkboxSix);
+    six.appendChild(labelSix);
 //ingredient 7
-const two = document.getElementById('two');
+const seven = document.getElementById('seven');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxSeven = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxSeven.type = "checkbox";
+    checkboxSeven.name = "name";
+    checkboxSeven.value = "value";
+    checkboxSeven.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelSeven = document.createElement("labelSeven");
 
-    labelTwo.htmlFor = "id";
+    labelSeven.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelSeven = document.createElement("labelSeven");
 
-    labelTwo.htmlFor = "id";
+    labelSeven.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeSeven = document.getElementById('seven');
+    removeSeven.textContent = "";
+     labelSeven.appendChild(
         document.createTextNode('Mozzarella')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    seven.appendChild(checkboxSeven);
+    seven.appendChild(labelSeven);
 //ingredient 8
-const two = document.getElementById('two');
+const eight = document.getElementById('eight');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxEight = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxEight.type = "checkbox";
+    checkboxEight.name = "name";
+    checkboxEight.value = "value";
+    checkboxEight.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelEight = document.createElement("labelEight");
 
-    labelTwo.htmlFor = "id";
+    labelEight.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelEight = document.createElement("labelEight");
 
-    labelTwo.htmlFor = "id";
+    labelEight.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeEight = document.getElementById('eight');
+    removeEight.textContent = "";
+     labelEight.appendChild(
         document.createTextNode('Melted unsalted/salted butter')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    eight.appendChild(checkboxEight);
+    eight.appendChild(labelEight);
 //ingredient 9
-const two = document.getElementById('two');
+const nine = document.getElementById('nine');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxNine = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxNine.type = "checkbox";
+    checkboxNine.name = "name";
+    checkboxNine.value = "value";
+    checkboxNine.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelNine = document.createElement("labelNine");
 
-    labelTwo.htmlFor = "id";
+    labelNine.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelNine = document.createElement("labelNine");
 
-    labelTwo.htmlFor = "id";
+    labelNine.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeNine = document.getElementById('nine');
+    removeNine.textContent = "";
+     labelNine.appendChild(
         document.createTextNode('(optional) Chili powder or (granulated/finely minced) garlic')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    nine.appendChild(checkboxNine);
+    nine.appendChild(labelNine);
 //ingredient 10
-const two = document.getElementById('two');
+const ten = document.getElementById('ten');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxTen = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxTen.type = "checkbox";
+    checkboxTen.name = "name";
+    checkboxTen.value = "value";
+    checkboxTen.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelTen = document.createElement("labelTen");
 
-    labelTwo.htmlFor = "id";
+    labelTen.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelTen = document.createElement("labelTen");
 
-    labelTwo.htmlFor = "id";
+    labelTen.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeTen = document.getElementById('ten');
+    removeTen.textContent = "";
+     labelTen.appendChild(
         document.createTextNode('Fresh cilantro')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    ten.appendChild(checkboxTen);
+    ten.appendChild(labelTen);
 //ingredient 11
-const two = document.getElementById('two');
+const eleven = document.getElementById('eleven');
 
-    let checkboxTwo = document.createElement("input");
+    let checkboxEleven = document.createElement("input");
 
-    checkboxTwo.type = "checkbox";
-    checkboxTwo.name = "name";
-    checkboxTwo.value = "value";
-    checkboxTwo.id = "id";
+    checkboxEleven.type = "checkbox";
+    checkboxEleven.name = "name";
+    checkboxEleven.value = "value";
+    checkboxEleven.id = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelEleven = document.createElement("labelEleven");
 
-    labelTwo.htmlFor = "id";
+    labelEleven.htmlFor = "id";
 
-    var labelTwo = document.createElement("labelOne");
+    var labelEleven = document.createElement("labelEleven");
 
-    labelTwo.htmlFor = "id";
+    labelEleven.htmlFor = "id";
 
-    const removeTwo = document.getElementById('two');
-    removeTwo.textContent = "";
-     labelTwo.appendChild(
+    const removeEleven = document.getElementById('eleven');
+    removeEleven.textContent = "";
+     labelEleven.appendChild(
         document.createTextNode('Cotija cheese or queso fresco(you can also substitute for fresh parmesan)')
 
     );
 
-    two.appendChild(checkboxTwo);
-    two.appendChild(labelTwo);
+    eleven.appendChild(checkboxEleven);
+    eleven.appendChild(labelEleven);
