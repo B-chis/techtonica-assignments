@@ -1,10 +1,10 @@
 
 let newListItem = document.createElement('li');
-newListItem.textContent = '(optional) lime wedges';
+newListItem.textContent = '(optional) serrano peppers';
 document.querySelector('.ingredients').appendChild(newListItem);
 
 let newInstructions = document.createElement('li');
-newInstructions.textContent = '(optional) Feel free to squeeze some juice to the pizza with the lime wedges for that zesty flavor!';
+newInstructions.textContent = '(optional) Feel free to add some chopped serrano peppers to the pizza for some extra spice!';
 document.querySelector('.finish-it').appendChild(newInstructions);
 
 
