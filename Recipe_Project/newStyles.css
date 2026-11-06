@@ -87,4 +87,6 @@ h3{
     color: #2d1600;
 }
 
-
+#zero [type="checkbox"]:checked {
+    text-decoration: line-through;
+}
