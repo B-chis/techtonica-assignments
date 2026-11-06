@@ -5,6 +5,7 @@
 
 .right {
     float: right;
+    margin-top: 20px;
 }
 
 
@@ -77,6 +78,3 @@ h3{
     color: #2d1600;
 }
 
-nav .bg-light {
-    color: #537150 !important;
-}
