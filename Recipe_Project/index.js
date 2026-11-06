@@ -10,7 +10,7 @@ document.querySelector('.finish-it').appendChild(newInstructions);
 
 
 
-    const check = document.getElementById(".ingredients");
+    const zero = document.getElementById('zero');
 
     let checkbox = document.createElement("input");
 
@@ -27,10 +27,40 @@ document.querySelector('.finish-it').appendChild(newInstructions);
 
     label.htmlFor = "id";
 
-    label.appendChild(
-        document.createTextNode("This create the label for checkbox.")
+    const removeZero = document.getElementById('zero');
+    removeZero.textContent = "";
+     label.appendChild(
+        document.createTextNode('Lime juice')
 
     );
 
-    .ingredients.appendChild(checkbox);
-    .ingredients.appendChild(label);
+    zero.appendChild(checkbox);
+    zero.appendChild(label);
+
+
+    // const one = document.getElementById('one');
+
+    // let checkbox = document.createElement("input");
+
+    // checkbox.type = "checkbox";
+    // checkbox.name = "name";
+    // checkbox.value = "value";
+    // checkbox.id = "id";
+
+    // var labelOne = document.createElement("labelOne");
+
+    // labelOne.htmlFor = "id";
+
+    // var labelOne = document.createElement("labelOne");
+
+    // label.htmlFor = "id";
+
+    // const removeOne = document.getElementById('one');
+    // removeOne.textContent = "";
+    //  labelOne.appendChild(
+    //     document.createTextNode('Corn kernels (fresh or canned)')
+
+    // );
+
+    // one.appendChild(checkbox);
+    // one.appendChild(label);
