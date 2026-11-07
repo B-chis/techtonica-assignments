@@ -1,31 +1,24 @@
 .left {
     float: left;
+    width: 600px;
     margin-top: 22px;
+    margin-left: 30px;
 }
 
 .right {
     float: right;
-    margin-top: 20px;
+    width: 600px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-
 
 .top {
     margin-left: 30px;
 }
 
 body {
-    background-color: #e7cf89;
-   
-}
+    background-color: #E5CD82;
 
-.back-corn {
-    background-repeat: y;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 0;
-    opacity: 75%
 }
 
 
@@ -55,11 +48,11 @@ ol {
 }
 .corny {
     position: absolute;
-    left: -30px;
+    left: 0px;
     right: 20px;
-    top: 0px;
+    top: 10px;
     height: 100px;
-    width: 100%;
+    width: 600px;
     z-index: -1;
     opacity: 50%
 }
@@ -67,26 +60,18 @@ ol {
 h1 {
     color: #cc5500
 }
-
 a {
     color: forestgreen;
-}
-
-
-.love {
-    color: #95780F
 }
 
 p{
     font-style: calisto mt;
     color: #AC7D0C
+
 }
-
-
+.head {
+    color: #3c0008
+}
 h3{
     color: #2d1600;
-}
-
-#zero [type="checkbox"]:checked {
-    text-decoration: line-through;
 }
