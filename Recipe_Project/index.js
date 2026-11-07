@@ -365,3 +365,27 @@ const eleven = document.getElementById('eleven');
     twelve.prepend(checkboxTwelve);
     twelve.prepend(labelTwelve);
 
+// document.getElementById().addEventListener
+
+// const strikeIt = document.getElementsByClassName('strike');
+// strikeIt.addEventListener('check', function() {
+//     this
+// })
+
+// document.querySelector('zero').classList.add('strikethrough');
+
+const gotIngredients = document.getElementClassName("ingredients");
+
+// gotIngredients.addEventListener("strike-through", (event) => {
+//     if (event.target.tagName === "li") {
+//         event.target.yum.toggle("checked");
+//     } else {
+//         return;
+//     }
+// } );
+// function (strike) {
+// if ([type="checkbox"] && "checked") {
+//     style.textDecoration = "line-through";
+// } else {style.textDecoration = "none";}
+// }
+// console.log(strike);
