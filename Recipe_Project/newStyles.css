@@ -1,26 +1,23 @@
 .left {
     float: left;
-    width: 600px;
     margin-top: 22px;
-    margin-left: 30px;
 }
 
 .right {
     float: right;
-    width: 600px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 20px;
 }
+
 
 .top {
     margin-left: 30px;
 }
 
 body {
-    background-color: #E5CD82;
+    background-color: #e7cf89;
+   
+}
 
-<<<<<<< HEAD
-=======
 .back-corn {
     background-size: cover;
     background-position: center;
@@ -33,7 +30,6 @@ body {
     top: 0;
     z-index: 0;
     opacity: 75%
->>>>>>> jsStuff
 }
 
 
@@ -63,11 +59,11 @@ ol {
 }
 .corny {
     position: absolute;
-    left: 0px;
+    left: -30px;
     right: 20px;
-    top: 10px;
+    top: 0px;
     height: 100px;
-    width: 600px;
+    width: 100%;
     z-index: -1;
     opacity: 50%
 }
@@ -75,24 +71,22 @@ ol {
 h1 {
     color: #cc5500
 }
+
 a {
     color: forestgreen;
+}
+
+
+.love {
+    color: #95780F
 }
 
 p{
     font-style: calisto mt;
     color: #AC7D0C
+}
 
-}
-.head {
-    color: #3c0008
-}
+
 h3{
     color: #2d1600;
-<<<<<<< HEAD
 }
-=======
-}
-
-
->>>>>>> jsStuff
